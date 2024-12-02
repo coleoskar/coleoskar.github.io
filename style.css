@@ -10,3 +10,13 @@ body {
     margin-right: 0px;
     top: 0;
   }
+
+  .navbar li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
