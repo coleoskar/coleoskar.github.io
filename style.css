@@ -11,12 +11,19 @@ body {
     top: 0;
   }
 
+.navbar {
+display: flex;
+gap: 2vw;
+}
+
   .navbar li {
     float: left;
+    text-decoration: none;
+    
   }
   
-  a {
-    display: block;
+  .navbar a {
     padding: 8px;
-    background-color: #dddddd;
+    
+
   }
