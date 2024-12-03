@@ -14,13 +14,11 @@ body {
 .navbar {
 display: flex;
 gap: 2vw;
-font-size: 8vw;
 }
 
   .navbar li {
     float: left;
     text-decoration: none;
-    font-size: 8vw;
     
   }
   
