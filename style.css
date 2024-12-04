@@ -21,7 +21,7 @@ body {
 gap: 2vw;
 }
 
-  .navbar ul {
+  .navbar li {
     display: flex;
     padding: 0vw;
     margin: 0vw;
