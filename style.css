@@ -30,22 +30,8 @@ body {
   gap: 1vw;
 }
 
-.navbar a{
-  color: white;
-  font-size: 3vw;
-  cursor: pointer;
-  text-align: center;
-  border: none;
-  font-family: "Dosis";
-  background: none;
-  margin: 0;
-  padding-left: 3.5vw;
-  padding-right: 3.5vw;
-  padding-bottom: 0px;
-  flex-shrink: 5;
-  flex-grow: 5;
-  text-decoration: none;
-  margin-bottom: 0px;
+.navbar ul{
+  display: flex;
 }
 
 
