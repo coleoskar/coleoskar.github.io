@@ -19,10 +19,11 @@ body {
 
 .navbar {
 gap: 2vw;
+display: flex;
 }
 
   .navbar li {
-    display: flex;
+    
     padding: 0vw;
     margin: 0vw;
     overflow: hidden;
@@ -37,11 +38,7 @@ gap: 2vw;
   
   }
 
-  
 
-  .navbar li{
-    float: left;
-  }
 
   h1 {
     color: aliceblue;
