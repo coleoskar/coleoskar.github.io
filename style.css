@@ -18,15 +18,15 @@ body {
   }
 
 .navbar {
-display: flex;
 gap: 2vw;
 }
 
   .navbar ul {
+    display: flex;
     padding: 0vw;
     margin: 0vw;
     overflow: hidden;
-    float: left;
+    float: right;
   }
   
   .navbar a {
