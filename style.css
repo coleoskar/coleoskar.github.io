@@ -23,12 +23,7 @@ body {
   padding-top: 0.5vw ;
 }
 
-.nav{
-  display: flex;
-  justify-content: space-evenly;
-  gap:4vw;
-  padding-left: 2vw;
-}
+
 
  
 
