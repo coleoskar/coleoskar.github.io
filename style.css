@@ -34,7 +34,7 @@ body {
   display: flex;
 }
 
-.navbar li{
+li{
   display: inline;
 }
 
