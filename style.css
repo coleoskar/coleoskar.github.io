@@ -26,6 +26,7 @@ gap: 2vw;
     padding: 0vw;
     margin: 0vw;
     overflow: hidden;
+    float: left;
   }
   
   .navbar a {
@@ -33,6 +34,7 @@ gap: 2vw;
     text-decoration: none;
     padding: 15vw;
     text-align: left;
+  
   }
 
   
