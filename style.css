@@ -17,24 +17,20 @@ body {
   }
 
 .navbar {
-gap: 2vw;
-display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5vw ;
 }
 
-  .navbar li {
-    
-    padding: 0vw;
-    margin: 0vw;
-    overflow: hidden;
-    float: right;
-  }
-  
-  .navbar a {
-    color: aliceblue;
-    text-decoration: none;
-    padding: 15vw;
-  
-  }
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  gap:4vw;
+  padding-left: 2vw;
+}
+
+ 
 
 
 
