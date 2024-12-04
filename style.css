@@ -13,8 +13,7 @@ body {
 
   h2 {
     color: aliceblue;
-    
-    
+    text-align: right; 
   }
 
 .navbar {
@@ -34,7 +33,6 @@ display: flex;
     color: aliceblue;
     text-decoration: none;
     padding: 15vw;
-    text-align: left;
   
   }
 
