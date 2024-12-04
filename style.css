@@ -31,7 +31,7 @@ body {
   display: flex;
 }
 
-li{
+.navbar li{
   display: inline;
   color: aliceblue ;
   float: right;
