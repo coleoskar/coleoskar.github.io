@@ -16,8 +16,8 @@ body {
   color: aliceblue ;
   float: right;
   justify-content: space-between;
-  gap: 1.5vw;
-  font-size: 3vw;
+  gap: 3vw;
+  font-size: 1.5vw;
 }
 
 .navbar {
