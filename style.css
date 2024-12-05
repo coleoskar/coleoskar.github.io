@@ -11,7 +11,7 @@ body {
     top: 0;
   }
 
-h2 {
+.menu {
   color: aliceblue ;
   float: right;
   justify-content: space-between;
