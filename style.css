@@ -17,6 +17,7 @@ body {
   float: right;
   justify-content: space-between;
   gap: 3vw;
+  font-size: 3vw;
 }
 
 .navbar {
