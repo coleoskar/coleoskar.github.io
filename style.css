@@ -15,6 +15,7 @@ h2 {
   color: aliceblue ;
   float: right;
   justify-content: space-between;
+  gap: 3vw;
 }
 
 .navbar {
