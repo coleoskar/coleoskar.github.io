@@ -12,6 +12,7 @@ body {
   }
 
 .menu {
+  display: flex;
   color: aliceblue ;
   float: right;
   justify-content: space-between;
