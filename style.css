@@ -4,11 +4,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 400vh;
+  height: 200vw;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 6vh; 
 }
-
 
 .navbar {
   position: fixed;
@@ -16,7 +16,7 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7); 
   padding: 1rem 0;
-  z-index: 1000;
+  z-index: 999;
 }
 
 .navbar .nav ul {
@@ -43,22 +43,18 @@ body {
 }
 
 .Splash {
-  font-size: 6vw;
+  font-size: 2vw;
   color: aliceblue;
-  padding-left: 1.5vw;
-  text-align:left;
-  margin-top: 4vw; 
-  padding-top: 1vw; 
+  padding-left: 2.5vw;
+  text-align: left;
+  margin-top: 25vh; 
 }
-
 
 .Quiz {
   color: aliceblue;
   font-size: 2vw;
-  padding: 20px;
-  text-align: center;
-  margin-top: 60vh; 
-  padding-bottom: 50px; 
+  text-align: left;
+  margin-top: 50vw;
 }
 
 .Quiz h2 {
@@ -68,11 +64,8 @@ body {
 .Tutorial {
   color: aliceblue;
   font-size: 2vw;
-  padding: 20px;
-  text-align: center;
-  margin-top: 100vh; 
-  padding-top: 40vw;
-  
+  text-align: left;
+  margin-top: 65vw;
 }
 
 .Tutorial h2 {
@@ -81,12 +74,6 @@ body {
 
 html {
   scroll-behavior: smooth;
-}
-
-.Splash{
-  font-size: 150%;
-  color: aliceblue;
- padding-left: 2.5vw;
 }
  
 
