@@ -1,21 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  background-image: url(images/background.jpg);
   background-color: black;
-  background-image: url("/images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 200vw;
+  height: 200%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 6vh; 
+
+  border: blue solid 2px;
 }
 
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7); 
-  padding: 1rem 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
   z-index: 999;
 }
 
@@ -39,22 +46,31 @@ body {
 }
 
 .navbar .nav ul li a:hover {
-  color: #f39c12; 
+  color: #2cc539;
+}
+
+.page {
+  font-size: 2vw;
+  padding-top: 50px;
+  padding-left: 3vw;
 }
 
 .Splash {
-  font-size: 2vw;
+  border: red solid 1px;
+  margin: 0px;
+
   color: aliceblue;
-  padding-left: 2.5vw;
-  text-align: left;
-  margin-top: 25vh; 
+  /* padding-left: 2.5vw; */
+
+  /* margin-top: 2vh;  */
+  height: 100vh;
+
 }
 
 .Quiz {
-  color: aliceblue;
-  font-size: 2vw;
-  text-align: left;
-  margin-top: 50vw;
+  color: rgb(255, 255, 255);
+  height: 100vh;
+  border: pink solid 1px;
 }
 
 .Quiz h2 {
@@ -64,19 +80,59 @@ body {
 .Tutorial {
   color: aliceblue;
   font-size: 2vw;
-  text-align: left;
-  margin-top: 65vw;
+  margin-top: 65vh;
 }
 
 .Tutorial h2 {
   font-size: 3vw;
 }
 
+.About {
+  color: aliceblue;
+  font-size: 5vw;
+  margin-top: 65vw;
+  margin-bottom:60vw;
+}
+
+.About h2 {
+  font-size: 3vw;
+}
+
 html {
   scroll-behavior: smooth;
 }
- 
 
- 
+.About p {
+  font-size: 10px;
+}
+
+.Tutorial p {
+  font-size: 50px;
+}
+
+.green-box {
+  position: absolute;  
+  top: 60%;            
+  left: 50%;           
+  transform: translate(20%, -50%);  
+  background-color: rgba(142, 217, 115, 0.5); 
+  padding: 20px;
+  border-radius: 50px;
+  text-align: center;
+  width: 40%;          
+  height: 50vh;
+  border: rgb(59, 125, 35)solid 2px;
+}
+
+.green-box p {
+  color: white;       
+  font-size: 28px;      
+  font-weight: bold;
+  text-align: justify;
+}
+
+.green-box h1 {
+  font-size: 60px;
+  padding-right: 18vw;
   
-
+}
