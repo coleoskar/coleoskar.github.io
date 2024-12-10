@@ -74,7 +74,7 @@ body {
 }
 
 .Quiz h2 {
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 .Tutorial {
@@ -84,7 +84,7 @@ body {
 }
 
 .Tutorial h2 {
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 .About {
@@ -95,7 +95,7 @@ body {
 }
 
 .About h2 {
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 html {
@@ -129,10 +129,39 @@ html {
   font-size: 28px;      
   font-weight: bold;
   text-align: justify;
+ text-shadow: 3px 3px #000000;
 }
 
 .green-box h1 {
   font-size: 60px;
   padding-right: 18vw;
-  
+  text-shadow: 2px 2px #000000;
+}
+
+.green-box-quiz {
+  position: relative;
+  top: 70%; 
+  left: 80%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(142, 217, 115, 0.8); 
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 20%; 
+  height: 20vh; 
+  border: rgb(59, 125, 35) solid 15px;
+  cursor: pointer;
+}
+
+.green-box-quiz p {
+  font-size: 4vw; 
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px #000000; 
+  padding-top: 2vh;
+  margin-right: 1vw;
+}
+
+.green-box-quiz-link {
+  text-decoration: none;
 }
