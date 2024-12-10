@@ -154,11 +154,11 @@ html {
 }
 
 .green-box-quiz p {
-  font-size: 4vw; 
+  font-size: 5vw; 
   color: white;
   text-align: center;
   text-shadow: 3px 3px #000000; 
-  padding-top: 2vh;
+  padding-top: 1vh;
   margin-right: 1vw;
 }
 
