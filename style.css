@@ -181,7 +181,7 @@ html {
 
 .green-box p {
   color: white;       
-  font-size: 34px;      
+  font-size: 38px;      
   font-weight: bold;
   text-align: justify;
  text-shadow: 3px 3px #000000;
@@ -428,10 +428,10 @@ html {
   .green-box {
     position: absolute;  
     top: 58%;            
-    left: 0%;           
+    left: 0vw;           
     transform: translate(20%, -50%);  
     background-color: rgba(142, 217, 115, 0.5); 
-    padding: 20px;
+    padding: 10px;
     border-radius: 50px;
     text-align: center;
     width: 80vw;          
