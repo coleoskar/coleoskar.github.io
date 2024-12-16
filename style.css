@@ -4,9 +4,6 @@
   padding: 0;
 }
 
-html{
-  height: 100%;
-}
 
 body {
   background-image: url(images/background.jpg);
@@ -14,10 +11,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 100%;
+  height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   border: blue solid 2px;
+  
 }
 
 .navbar {
@@ -54,7 +52,7 @@ body {
 
 .page {
   font-size: 2vw;
-  padding-top: 50px;
+  padding-top: 7vh;
   padding-left: 3vw;
 }
 
@@ -83,7 +81,7 @@ body {
 .Tutorial {
   color: aliceblue;
   font-size: 2vw;
-  margin-top: 65vh;
+  margin-top: 0vh;
 }
 
 .Tutorial h2 {
@@ -143,6 +141,7 @@ body {
   font-size: 5vw;
   margin-top: 65vh;
   margin-bottom:60vh;
+  height: 100vh;
 }
 
 .About h2 {
@@ -154,7 +153,8 @@ html {
 }
 
 .About p {
-  font-size: 10px;
+  font-size: 40px;
+  padding-top: 4vh;
 }
 
 .Tutorial p {
@@ -250,3 +250,335 @@ html {
 }
 
 
+@media only screen and (max-width: 600px){
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    background-image: url(images/background.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: blue solid 2px;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    z-index: 999;
+  }
+  
+  .navbar .nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar .nav ul li {
+    display: inline;
+    margin: 0 2vw;
+  }
+  
+  .navbar .nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5vw;
+    transition: color 0.3s;
+  }
+  
+  .navbar .nav ul li a:hover {
+    color: #2cc539;
+  }
+  
+  /* Page sections */
+  .page {
+    font-size: 4vw;
+    padding-top: 7vh;
+    padding-left: 3vw;
+  }
+  
+  .Splash {
+    border: red solid 1px;
+    margin: 0px;
+    color: aliceblue;
+    height: 100vh;
+  }
+  
+  .Quiz {
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    border: pink solid 1px;
+    
+  }
+  
+  .Quiz h2 {
+    font-size: 7vw;
+  }
+  
+  .Tutorial {
+    color: aliceblue;
+    font-size: 6vw;
+    margin-top: 0vh;
+  }
+  
+  .Tutorial h2 {
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Tutorial video styles */
+  .tutorial-video-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding: 0 2vw;
+  }
+  
+  .tutorial-video-box {
+    position: relative;
+    width: 26vw; 
+    height: 30vh; 
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+  }
+  
+  .tutorial-video-box iframe {
+    width: 99%;
+    height: 84%;
+    border: none;
+    object-fit: cover; 
+  }
+  
+  /* Green box styles */
+  .green-box {
+    position: absolute;  
+    top: 50%;            
+    left: 30%;           
+    transform: translate(20%, -50%);  
+    background-color: rgba(142, 217, 115, 0.5); 
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    width: 40%;          
+    height: 52vh;
+    border: rgb(59, 125, 35) solid 2px;
+  }
+  
+  .green-box p {
+    color: white;       
+    font-size: 28px;      
+    font-weight: bold;
+    text-align: justify;
+    text-shadow: 3px 3px #000000;
+  }
+  
+  .green-box h1 {
+    font-size: 60px;
+    padding-right: 18vw;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  /* Quiz box styles */
+  .green-box-quiz {
+    position: relative;
+    top: 70%; 
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(142, 217, 115, 0.8); 
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 20%; 
+    height: 20vh; 
+    border: rgb(59, 125, 35) solid 15px;
+    cursor: pointer;
+  }
+  
+  .green-box-quiz p {
+    font-size: 5vw; 
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px #000000; 
+    padding-top: 1vh;
+    margin-right: 1vw;
+  }
+  
+  .green-box-quiz-link {
+    text-decoration: none;
+  }
+  
+  .green-box-quiz-aim {
+    top: 1%; 
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(142, 217, 115, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 40%;          
+    height: 52vh; 
+    border: rgb(59, 125, 35) solid 15px;
+    cursor: pointer;
+  }
+  
+  .green-box-quiz-aim .aim-heading {
+    font-size: 2.3vh; 
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px #000000;
+    margin-bottom: 20px; 
+  }
+  
+  .green-box-quiz-aim .aim-paragraph {
+    font-size: 2vh; 
+    color: white;
+    text-align: justify; 
+    text-shadow: 3px 3px #000000;
+    padding-top: 0vh;
+    margin-right: 1vw;
+  }
+  
+  /* About page styles */
+  .About {
+    color: aliceblue;
+    font-size: 5vw;
+    margin-top: 65vh;
+    margin-bottom:60vh;
+    height: 100vh;
+  }
+  
+  .About h2 {
+    font-size: 4vw;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .About p {
+    font-size: 40px;
+    padding-top: 4vh;
+  }
+  
+  .Tutorial p {
+    font-size: 50px;
+  }
+  
+  /* Mobile & tablet responsiveness */
+  @media (max-width: 768px) {
+    .tutorial-video-box {
+      width: 48vw;
+    }
+  
+    .tutorial-video-container {
+      gap: 2vw;
+      padding: 0;
+      flex-direction: column;
+    }
+  
+    .green-box {
+      width: 70%;
+      height: 60vh;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .green-box h1 {
+      font-size: 50px;
+    }
+  
+    .green-box p {
+      font-size: 24px;
+    }
+  
+    .green-box-quiz {
+      width: 40%;
+      height: 25vh;
+    }
+  
+    .green-box-quiz p {
+      font-size: 4vw;
+    }
+  
+    .About {
+      font-size: 6vw;
+      margin-top: 50vh;
+    }
+  
+    .Tutorial h2 {
+      font-size: 6vw;
+    }
+  }
+  
+  /* Mobile responsiveness for smaller screens */
+  @media (max-width: 480px) {
+    .tutorial-video-box {
+      width: 100%;
+    }
+  
+    .tutorial-video-container {
+      gap: 2vw;
+      padding: 0;
+      flex-direction: column;
+    }
+  
+    .green-box {
+      width: 90%;
+      height: 60vh;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .green-box h1 {
+      font-size: 40px;
+    }
+  
+    .green-box p {
+      font-size: 20px;
+    }
+  
+    .green-box-quiz {
+      width: 60%;
+      height: 25vh;
+    }
+  
+    .green-box-quiz p {
+      font-size: 4vw;
+    }
+  
+    .About {
+      font-size: 7vw;
+      margin-top: 50vh;
+    }
+  
+    .Tutorial h2 {
+      font-size: 7vw;
+    }
+  
+    .navbar .nav ul li a {
+      font-size: 4vw;
+    }
+  }
+  
+}
