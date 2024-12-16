@@ -76,6 +76,8 @@ body {
 
 .Quiz h2 {
   font-size: 4vw;
+  padding-top: 6vh;
+  margin-left: 2vw;
 }
 
 .Tutorial {
@@ -88,6 +90,7 @@ body {
   font-size: 4vw;
   text-align: center;
   margin-bottom: 20px;
+  padding-top: 0px;
 }
 
 
@@ -146,6 +149,7 @@ body {
 
 .About h2 {
   font-size: 4vw;
+  padding-top: 0px;
 }
 
 html {
@@ -170,14 +174,14 @@ html {
   padding: 20px;
   border-radius: 50px;
   text-align: center;
-  width: 40%;          
-  height: 52vh;
+  width: 49%;          
+  height: 48vh;
   border: rgb(59, 125, 35)solid 2px;
 }
 
 .green-box p {
   color: white;       
-  font-size: 28px;      
+  font-size: 34px;      
   font-weight: bold;
   text-align: justify;
  text-shadow: 3px 3px #000000;
@@ -185,7 +189,7 @@ html {
 
 .green-box h1 {
   font-size: 60px;
-  padding-right: 18vw;
+  padding-right: 24vw;
   text-shadow: 2px 2px #000000;
 }
 
@@ -259,7 +263,7 @@ html {
     padding: 0;
   }
   
-  /* Global styles */
+  
   body {
     background-image: url(images/background.jpg);
     background-color: black;
@@ -270,9 +274,9 @@ html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: blue solid 2px;
+    
   }
   
-  /* Navbar styles */
   .navbar {
     position: fixed;
     top: 0;
@@ -297,7 +301,7 @@ html {
   .navbar .nav ul li a {
     color: aliceblue;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 5vw;
     transition: color 0.3s;
   }
   
@@ -305,9 +309,8 @@ html {
     color: #2cc539;
   }
   
-  /* Page sections */
   .page {
-    font-size: 4vw;
+    font-size: 5vw;
     padding-top: 7vh;
     padding-left: 3vw;
   }
@@ -315,24 +318,30 @@ html {
   .Splash {
     border: red solid 1px;
     margin: 0px;
+  
     color: aliceblue;
+    /* padding-left: 2.5vw; */
+  
+    /* margin-top: 2vh;  */
     height: 100vh;
+  
   }
   
   .Quiz {
     color: rgb(255, 255, 255);
     height: 100vh;
     border: pink solid 1px;
-    
   }
   
   .Quiz h2 {
-    font-size: 7vw;
+    font-size: 12vw;
+    padding-top: 6vh;
+    margin-left: 2vw;
   }
   
   .Tutorial {
     color: aliceblue;
-    font-size: 6vw;
+    font-size: 2vw;
     margin-top: 0vh;
   }
   
@@ -340,9 +349,10 @@ html {
     font-size: 4vw;
     text-align: center;
     margin-bottom: 20px;
+    padding-top: 0px;
   }
   
-  /* Tutorial video styles */
+  
   .tutorial-video-container {
     display: flex;
     justify-content: space-between;
@@ -351,6 +361,7 @@ html {
     flex-wrap: wrap;
     padding: 0 2vw;
   }
+  
   
   .tutorial-video-box {
     position: relative;
@@ -362,6 +373,7 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
   }
   
+  
   .tutorial-video-box iframe {
     width: 99%;
     height: 84%;
@@ -369,96 +381,24 @@ html {
     object-fit: cover; 
   }
   
-  /* Green box styles */
-  .green-box {
-    position: absolute;  
-    top: 50%;            
-    left: 30%;           
-    transform: translate(20%, -50%);  
-    background-color: rgba(142, 217, 115, 0.5); 
-    padding: 20px;
-    border-radius: 50px;
-    text-align: center;
-    width: 40%;          
-    height: 52vh;
-    border: rgb(59, 125, 35) solid 2px;
+  
+  @media (max-width: 768px) {
+    .tutorial-video-box {
+      width: 48vw; 
+    }
   }
   
-  .green-box p {
-    color: white;       
-    font-size: 28px;      
-    font-weight: bold;
-    text-align: justify;
-    text-shadow: 3px 3px #000000;
+  @media (max-width: 480px) {
+    .tutorial-video-box {
+      width: 100vw; 
+    }
   }
   
-  .green-box h1 {
-    font-size: 60px;
-    padding-right: 18vw;
-    text-shadow: 2px 2px #000000;
+  .Tutorial h2 {
+    font-size: 10vw;
+    padding-top: 2vh;
   }
   
-  /* Quiz box styles */
-  .green-box-quiz {
-    position: relative;
-    top: 70%; 
-    left: 80%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(142, 217, 115, 0.8); 
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    width: 20%; 
-    height: 20vh; 
-    border: rgb(59, 125, 35) solid 15px;
-    cursor: pointer;
-  }
-  
-  .green-box-quiz p {
-    font-size: 5vw; 
-    color: white;
-    text-align: center;
-    text-shadow: 3px 3px #000000; 
-    padding-top: 1vh;
-    margin-right: 1vw;
-  }
-  
-  .green-box-quiz-link {
-    text-decoration: none;
-  }
-  
-  .green-box-quiz-aim {
-    top: 1%; 
-    left: 40%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(142, 217, 115, 0.8);
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    width: 40%;          
-    height: 52vh; 
-    border: rgb(59, 125, 35) solid 15px;
-    cursor: pointer;
-  }
-  
-  .green-box-quiz-aim .aim-heading {
-    font-size: 2.3vh; 
-    color: white;
-    text-align: center;
-    text-shadow: 3px 3px #000000;
-    margin-bottom: 20px; 
-  }
-  
-  .green-box-quiz-aim .aim-paragraph {
-    font-size: 2vh; 
-    color: white;
-    text-align: justify; 
-    text-shadow: 3px 3px #000000;
-    padding-top: 0vh;
-    margin-right: 1vw;
-  }
-  
-  /* About page styles */
   .About {
     color: aliceblue;
     font-size: 5vw;
@@ -468,7 +408,8 @@ html {
   }
   
   .About h2 {
-    font-size: 4vw;
+    font-size: 10vw;
+    padding-top: 0px;
   }
   
   html {
@@ -476,7 +417,7 @@ html {
   }
   
   .About p {
-    font-size: 40px;
+    font-size: 20px;
     padding-top: 4vh;
   }
   
@@ -484,102 +425,109 @@ html {
     font-size: 50px;
   }
   
-  /* Mobile & tablet responsiveness */
-  @media (max-width: 768px) {
-    .tutorial-video-box {
-      width: 48vw;
-    }
-  
-    .tutorial-video-container {
-      gap: 2vw;
-      padding: 0;
-      flex-direction: column;
-    }
-  
-    .green-box {
-      width: 70%;
-      height: 60vh;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  
-    .green-box h1 {
-      font-size: 50px;
-    }
-  
-    .green-box p {
-      font-size: 24px;
-    }
-  
-    .green-box-quiz {
-      width: 40%;
-      height: 25vh;
-    }
-  
-    .green-box-quiz p {
-      font-size: 4vw;
-    }
-  
-    .About {
-      font-size: 6vw;
-      margin-top: 50vh;
-    }
-  
-    .Tutorial h2 {
-      font-size: 6vw;
-    }
+  .green-box {
+    position: absolute;  
+    top: 58%;            
+    left: 0%;           
+    transform: translate(20%, -50%);  
+    background-color: rgba(142, 217, 115, 0.5); 
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    width: 80vw;          
+    height: 67vh;
+    border: rgb(59, 125, 35)solid 2px;
   }
   
-  /* Mobile responsiveness for smaller screens */
-  @media (max-width: 480px) {
-    .tutorial-video-box {
-      width: 100%;
-    }
-  
-    .tutorial-video-container {
-      gap: 2vw;
-      padding: 0;
-      flex-direction: column;
-    }
-  
-    .green-box {
-      width: 90%;
-      height: 60vh;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  
-    .green-box h1 {
-      font-size: 40px;
-    }
-  
-    .green-box p {
-      font-size: 20px;
-    }
-  
-    .green-box-quiz {
-      width: 60%;
-      height: 25vh;
-    }
-  
-    .green-box-quiz p {
-      font-size: 4vw;
-    }
-  
-    .About {
-      font-size: 7vw;
-      margin-top: 50vh;
-    }
-  
-    .Tutorial h2 {
-      font-size: 7vw;
-    }
-  
-    .navbar .nav ul li a {
-      font-size: 4vw;
-    }
+  .green-box p {
+    color: white;       
+    font-size: 20px;      
+    font-weight: bold;
+    text-align: justify;
+   text-shadow: 3px 3px #000000;
   }
   
+  .green-box h1 {
+    font-size: 60px;
+    padding-right: 24vw;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  .green-box-quiz {
+    position: relative;
+    top: 75%; 
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(142, 217, 115, 0.8); 
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 50vw; 
+    height: 20vh; 
+    border: rgb(59, 125, 35) solid 15px;
+    cursor: pointer;
+  }
+  
+  .green-box-quiz p {
+    font-size: 14vw; 
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px #000000; 
+    padding-top: 2vh;
+    margin-right: 1vw;
+  }
+  
+  .green-box-quiz-link {
+    text-decoration: none;
+  }
+  
+  .green-box-quiz-aim {
+    top: 13%; 
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(142, 217, 115, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 30vh; 
+    height: 60vh; 
+    border: rgb(59, 125, 35) solid 15px;
+    cursor: pointer;
+  }
+  
+  .green-box-quiz-aim .aim-heading {
+    font-size: 3.4vh; 
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px #000000;
+    margin-bottom: 20px; 
+  }
+  
+  
+  .green-box-quiz-aim .aim-paragraph {
+    font-size: 2vh; 
+    color: white;
+    text-align: justify; 
+    text-shadow: 3px 3px #000000;
+    padding-top: 0vh;
+    margin-right: 1vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+ 
