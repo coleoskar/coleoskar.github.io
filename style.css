@@ -167,16 +167,7 @@ html {
 
 .green-box {
   position: absolute;  
-  top: 50%;            
-  left: 30%;           
-  transform: translate(20%, -50%);  
-  background-color: rgba(142, 217, 115, 0.5); 
-  padding: 20px;
-  border-radius: 50px;
-  text-align: center;
-  width: max-content;          
-  height: max-content;
-  border: rgb(59, 125, 35)solid 2px;
+  
 }
 
 .green-box p {
@@ -185,6 +176,20 @@ html {
   font-weight: bold;
   text-align: justify;
  text-shadow: 3px 3px #000000;
+}
+
+.green-box::after{
+  content:"";
+  top: 50%;            
+  left: 50%;           
+  transform: translate(50%, -50%);  
+  background-color: rgba(142, 217, 115, 0.5); 
+  padding: 20px;
+  border-radius: 50px;
+  text-align: center;
+  width: max-content;          
+  height: max-content;
+  border: rgb(59, 125, 35)solid 2px;
 }
 
 .green-box h1 {
