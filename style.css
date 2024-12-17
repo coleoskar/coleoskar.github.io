@@ -167,7 +167,8 @@ html {
 
 .green-box {
   position: absolute;  
-  
+  height: 10vh;
+  width: 10vw;
 }
 
 .green-box p {
@@ -178,7 +179,7 @@ html {
  text-shadow: 3px 3px #000000;
 }
 
-.green-box::after{
+.green-box::before{
   content:"";
   top: 50%;            
   left: 50%;           
@@ -190,6 +191,7 @@ html {
   width: max-content;          
   height: max-content;
   border: rgb(59, 125, 35)solid 2px;
+  position: relative;
 }
 
 .green-box h1 {
