@@ -174,8 +174,8 @@ html {
   padding: 20px;
   border-radius: 50px;
   text-align: center;
-  width: 49%;          
-  height: 48vh;
+  width: max-content;          
+  height: max-content;
   border: rgb(59, 125, 35)solid 2px;
 }
 
