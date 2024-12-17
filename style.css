@@ -220,6 +220,7 @@ html {
   text-shadow: 3px 3px #000000; 
   padding-top: 1vh;
   margin-right: 1vw;
+  text-decoration: none;
 }
 
 .green-box-quiz-link {
