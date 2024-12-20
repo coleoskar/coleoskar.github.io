@@ -175,7 +175,7 @@ html {
   border-radius: 50px;
   text-align: center;
   width: 49%;          
-  height: 48vh;
+  height: min-content;
   border: rgb(59, 125, 35)solid 2px;
 }
 
