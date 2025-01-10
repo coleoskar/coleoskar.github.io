@@ -208,6 +208,10 @@ html {
   cursor: pointer;
 }
 
+.green-box-quiz a {
+  text-decoration: none;
+}
+
 .green-box-quiz p {
   font-size: 5vw; 
   color: white;
@@ -467,6 +471,8 @@ html {
     border: rgb(59, 125, 35) solid 15px;
     cursor: pointer;
   }
+
+  
   
   .green-box-quiz p {
     font-size: 14vw; 
